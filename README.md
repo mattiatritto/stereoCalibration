@@ -19,14 +19,16 @@ Then, compare with Ground Truth
 With the *--verbose argument*, it gives this kind of output:
 
 <pre>
+
 compared_pose_pairs 3638 pairs
-absolute_translational_error.rmse 3.589711 m
-absolute_translational_error.mean 3.303712 m
-absolute_translational_error.median 3.697012 m
-absolute_translational_error.std 1.404103 m
-absolute_translational_error.min 0.776417 m
-absolute_translational_error.max 6.239657 m
-max idx: 2618
+absolute_translational_error.rmse 0.035956 m
+absolute_translational_error.mean 0.033244 m
+absolute_translational_error.median 0.036838 m
+absolute_translational_error.std 0.013701 m
+absolute_translational_error.min 0.002904 m
+absolute_translational_error.max 0.104954 m
+max idx: 1380
+
 </pre>
 
 The plot of the trajectory is saved in *MH01_stereo.pdf*
